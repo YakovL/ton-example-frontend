@@ -1,19 +1,15 @@
-import { useState } from 'react'
 import './App.css'
+import { TonConnectButton } from '@tonconnect/ui-react';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <h1>TON Lottery</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <TonConnectButton style={{ display: 'inline-block' }}/>
       </div>
       <p className="read-the-docs">
-        TODO: implement wallet connection, sending bet
+        TODO: custom manifest to identify the app properly, sending bet
       </p>
     </>
   )
