@@ -9,7 +9,7 @@ function App() {
         <TonConnectButton style={{ display: 'inline-block' }}/>
       </div>
       <p className="read-the-docs">
-        TODO: custom manifest to identify the app properly, sending bet
+        TODO: sending bet
       </p>
     </>
   )
